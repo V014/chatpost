@@ -11,19 +11,19 @@ body {
 header {
   padding: 60px;
   text-align: center;
-  background: #1abc9c;
-  color: white;
+  background: #151B23;
+  color: #D1D7E0;
 }
 
 /* Top navigation bar */
 .navbar {
   display: flex;
-  background-color: #333;
+  background-color: #151B23;
 }
 
 /* Navigation bar links */
 .navbar a {
-  color: white;
+  color: #D1D7E0;
   padding: 14px 20px;
   text-decoration: none;
   text-align: center;
@@ -44,15 +44,17 @@ header {
 /* Sidebar/left column */
 .side {
   flex: 30%;
-  background-color: #f1f1f1;
+  background-color: #212830;
   padding: 20px;
+  color: #D1D7E0;
 }
 
 /* Main column */
 .main {
   flex: 70%;
-  background-color: white;
+  background-color: #212830;
   padding: 20px;
+  color: #D1D7E0;
 }
 
 /* Fake image, just for this example */
