@@ -40,10 +40,16 @@ img {
 /* headlines */
 .headlines {
   display: flex;
+  overflow-x: auto;       /* Enable horizontal scrolling as needed */
+  white-space: nowrap;    /* Prevent items from wrapping */
+  /* Optional: hide vertical scrollbar if it appears accidentally */
+  overflow-y: hidden;
   /* background-color: DodgerBlue; */
 }
 
 .headlines div {
+    /* Prevent items from shrinking below their defined width */
+  flex: 0 0 auto;
   /* background-color: #f1f1f1; */
   margin: 10px;
   padding: 20px;
